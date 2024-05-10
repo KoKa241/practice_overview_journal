@@ -18,7 +18,14 @@ function checkCoockie() {
         <ul class="navbar-nav">
             <?php
             if (checkCoockie()) {
-                
+                ?>
+                <li class="nav-item">
+                    <a class="nav-item nav-link active" href="profile.php">Username</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+             <?php   
             }
             else {
                 echo "<li class='nav-item'>
